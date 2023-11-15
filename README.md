@@ -4,6 +4,7 @@ I'm Giuseppe Roberto Allegra (s305063), in this repository you can find my works
 
 ## Updated list of of my works:
 - Lab 1 (A* algorithm);
+- Lab 2 (Nim: Evolutionary algorithm);
 
 
 
