@@ -40,8 +40,9 @@ These suggestions aim to improve the clarity, maintainability, and robustness of
 
 ## To: Donato Lanzillotti s316001 
 Hi Donato, I've reviewed your code and I really appreciate your strategy, especially because it closely aligns with the one I used. Your code structure is generally clear, and you've effectively used functions to modularize different parts of the code. However, it would be beneficial to include comments or docstrings to explain the purpose of each function and its parameters.
-The training functions (`train_agent_1`, `train_agent_2`, `train_agent_2_v2`) appear to be functioning correctly. Still, I would suggest considering the addition of a mechanism to save and load the state-action dictionaries to avoid the need for retraining each time.
-I don't fully agree with assigning a higher reward for a draw than a win in the third function. Even if the agent starts playing second, it should always aim for victory. If winning is not possible, then it can settle for a draw. Adjusting the reward values could help achieve this desired behavior.
-The testing functions (`policy_vs_random`, `random_vs_policy`, `policy_vs_policy`, `policy1_vs_policy2`, `human_vs_policy`) provide effective means to evaluate the trained agents. The results section at the end, where you test the agents against each other and a human player, is clear and informative.
-I would recommend handling user input errors more gracefully in the `human_vs_policy` function. For instance, if the user enters a non-integer or an unavailable move, consider providing a clear error message and prompting again.
+- The training functions (`train_agent_1`, `train_agent_2`, `train_agent_2_v2`) appear to be functioning correctly. Still, I would suggest considering the addition of a mechanism to save and load the state-action dictionaries to avoid the need for retraining each time.
+- I don't fully agree with assigning a higher reward for a draw than a win in the third function. Even if the agent starts playing second, it should always aim for victory. If winning is not possible, then it can settle for a draw. Adjusting the reward values could help achieve this desired behavior.
+- The testing functions (`policy_vs_random`, `random_vs_policy`, `policy_vs_policy`, `policy1_vs_policy2`, `human_vs_policy`) provide effective means to evaluate the trained agents. The results section at the end, where you test the agents against each other and a human player, is clear and informative.
+- I would recommend handling user input errors more gracefully in the `human_vs_policy` function. For instance, if the user enters a non-integer or an unavailable move, consider providing a clear error message and prompting again.
+
 Overall, great job! Best of luck for your exam!
