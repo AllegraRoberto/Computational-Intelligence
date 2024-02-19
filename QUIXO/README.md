@@ -14,12 +14,12 @@ I introduced variables to count repeated moves. If both players repeat the same 
 In the `clone_game` file, functions to create a game copy are provided.
 The `interactive_player.py` file contains the code for the interactive interface to play against AI. The `stats.ipynb` notebook includes functions to start the interactive interface, print stats against a Random Player,
 
-![Instance 1](Screenshots/AIvsRandom.png)
+![Instance 1](Screenshots/AivsRandom.png)
 
 And show AI vs AI game stats.
 
-![Instance 1](Screenshots/AIvsAi_1.png)
-![Instance 1](Screenshots/AIvsAi_2.png)
+![Instance 1](Screenshots/AIvsAI_1.png)
+![Instance 1](Screenshots/AIvsAI_2.png)
 ## Conclusion
 In conclusion, the Minimax algorithm implementation for Quixo lays a solid foundation for developing artificial intelligence capable of playing well. However, one must consider the algorithm's computational complexity and limitations in more complex game scenarios.
 
